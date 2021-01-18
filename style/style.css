@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: wheat;
+}
+.logo{
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50% ,0%);
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.374px;
+    color: #000000;
+}
+.sub-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: rgba(60, 60, 67, 0.6);
+}
+.container{
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 40px;
+}
+.input{
+    width: 100%;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: rgba(60, 60, 67, 0.3);
+    border: none;
+    border-bottom: 0.5px solid #cccccc;
+}
+.check{
+    margin-top: 35px;
+}
+.check-box{
+    display: inline-block;
+    background-color: #007AFF;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+.lable{
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: -0.078px;
+    color: rgba(60, 60, 67, 0.6);
+    vertical-align: middle;
+    margin: 0px;
+}
+.blue{
+    color: #007aff;
+    font-size: 16px;
+}
+.cta{
+    background: #007AFF;
+    border-radius: 14px;
+    width: 100%;
+    display: block;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 22px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-lable{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #8E8E93;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #007aff;
+}
